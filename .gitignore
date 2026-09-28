@@ -1,4 +1,21 @@
-*.csv
-*.parquet
-*.txt
+# Raw dataset files (kept locally only, see data/README.md)
+/*.csv
+/*.parquet
+/*.txt
+!requirements.txt
+
+# Local working notebook (published, cleaned copy lives in notebooks/)
+/Untitled.ipynb
+
+# Python / Jupyter
+.venv/
+venv/
+__pycache__/
 .ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.env
+.vscode/
+.idea/
